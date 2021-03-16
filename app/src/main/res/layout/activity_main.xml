@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#3F51B5">
+
+
+    <ListView
+        android:id="@+id/batabase_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/butadd"
+        android:layout_marginTop="12dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="186dp" />
+
+    <EditText
+        android:id="@+id/et_database"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/butadd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_database"
+        android:layout_marginTop="89dp"
+        android:text="Add to Fierbase" />
+
+    <EditText
+        android:id="@+id/et_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_database"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:hint="Adderss"
+        android:inputType="textPersonName" />
+</RelativeLayout>
